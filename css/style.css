@@ -42,12 +42,28 @@ footer{
     background: rgb(112, 26, 151);
 }
 
-.box1{
+.box-sx{
     height: 100px;
-    background: #62a9eb;
     width: 100%;
-
+    background: #62a9eb;
 }
+
+.box-sx1{
+    margin-top: 25px;
+    height: 550px;
+    width: 20%;
+    background: #62a9eb;
+}
+
+
+.box-dx{
+    margin-top: 25px;
+    height: 550px;
+    width: 20%;
+    background: #62a9eb;
+}
+
+
 
 
 
