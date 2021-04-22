@@ -4,14 +4,33 @@
     padding: 0;
 }
 
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
 
 .contenitore{
     width: 1200px;
     margin: 0 auto;
-    margin-bottom: 20px;
 }
 
 header{
     background: #E579E6;
-    height: 150px;
+    height: 120px;
 }
+
+.primario{
+    margin-bottom: 20px;
+}
+
+
+
+.secondario{
+    background-color: #e1d67a;
+    height: 500px;
+}
+
+
