@@ -25,6 +25,11 @@ section{
     height: 500px;
 }
 
+.primario::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .secondario{
     background-color: #0086FF;
@@ -45,18 +50,26 @@ footer{
     margin-bottom: 20px;
 }
 
-.box-st{
-    height: 550px;
-    width: (25% - 15px);
+.box-sx{
     background: #62a9eb;
+    height: 550px;
+    width: 20%;
+    margin-right: 15px;
+}
+
+.box-dx{
+    background: #62a9eb;
+    height: 550px;
+    width: 20%;
+    margin-left: 70%;
 }
 
 
-.box-dx{
-
-    height: 550px;
-    width: (25% - 15px);
+.box-c{
     background: #62a9eb;
+    height: 550px;
+    width: 50%;
+    margin-left: 15px;
 }
 
 
